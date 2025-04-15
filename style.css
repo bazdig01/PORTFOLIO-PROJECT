@@ -1,12 +1,99 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .container{
+    display: flex;
+    align-items: ;
     margin: 0 auto;
     padding: 0;
+    width: 100%;
+    background-image:url(/assets/background.jpg);
+    background-size: 100%;
 }
-#background{
-    width:100%;
-    height: 100%;
+
+.navbar{
+    
+    width: 40%;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: space-around;
+    
+    
+
 }
+.navbar{
+    background-image: url(/assets/Black_colour.jpg);
+    width: 40%;
+    
+    opacity: 50%;
+    
+    
+    
+    
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#profile-pic{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+.navbar h3{
+    color: #7078BB;
+    font-size: 30px;
+    font-weight: bolder;
+    width: 320px;
+    
+}
+p{
+    color: #7078BB;
+    font-size: 30px;
+    font-weight: bolder;
+    width: 320px;
+    text-align: center;
+}
+.navbar li{
+    
+    margin: 50px 0;
+    list-style: none;
+    color: #D8D7B4;
+    font-size: 30px;
+    text-align: center;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #D8D7B4;
+}
+.navbar ul:first-child{
+    color: #D18645;
+}
+.right-side{
+        padding: 40px;
+        margin-left:15%;
+        
+    }
+    
+    h1 {
+        font-size: 48px;
+        width: 200%;
+        color: #D8D7B4;
+        font-size: 60px;
+        font-weight:lighter;
+        
+        
+    }
+    
+    h3 {
+        font-size: 24px;
+        color:#D18645;
+        font-size: 30px;
+        font-weight: lighter    ;
+    }

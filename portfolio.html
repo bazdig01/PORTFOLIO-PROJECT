@@ -8,7 +8,8 @@
 </head>
 <body>
     <div class="container">
-        
+    
+    
         <div class="navbar">
             
                 
@@ -18,26 +19,104 @@
                 <h3>Full Stack Web Developer </h3>
                 <p>in Tunisia</p>
             </div>  
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Contact</a></li>
+            <ul class="lista">
+                <li  onclick="Homee()"><a href="#">Home</a></li>
+                <li  onclick="Aboutt()"><a href="#">About</a></li>
+                <li  onclick="Projectss()"><a href="#">Projects</a></li>
+                <li  onclick="Skillss()"><a href="#">Skills</a></li>
+                <li  onclick="Contact()"><a href="#">Contact</a></li>
             </ul>
-            
+                
         </div>
-        <div class="right-side">
+        <div class="right-side" style="display: block;" id="selector1">
             <h1>Hi, I'm</h1>
             <h1> Kossay</h1>
             <h3>CREATIVE WEB </h3>
             <h3>DEVELOPER</h3>
+            <div class="socialimg">
+                <a href="https://mail.google.com/mail/?view=cm&to=battachkozay@gmail.com">
+                    <img src="/assets/gm.jpg" alt="gmail"></a>
+                 
+                <img src="/assets/linkedin.png" alt="linkedin">
+                <img src="/assets/github.png" alt="github">
+                <img src="/assets/wtsp.webp" alt="whatssap">
+                <img src="/assets/disc.png" alt="discou">
+                <img src="/assets/fb.webp" alt="facebook">
+                <img src="/assets/inst.webp" alt="insta"> 
+            </div>
+            <div class="animation">
+                <section>
+                    <p> My lil msg to you today &#x1F48C; 	</p>
+                    
+                    <ul class="code">
+                      <li tabindex="0" class="digit">
+                        <span>You</span>
+                      </li>
+                      <li tabindex="0" class="digit">
+                        <span>are</span>
+                      </li>
+                      <li tabindex="0" class="digit">
+                        <span>at</span>
+                      </li>
+                      <li tabindex="0" class="digit">
+                        <span>the</span>
+                      </li>
+                      <li tabindex="0" class="digit">
+                        <span>right</span>
+                      </li>
+                      <br>
+                      <li tabindex="0" class="digit">
+                        <span>place.</span>
+                      </li>
+                      <li tabindex="0" class="digit">
+                        <span>Let's</span>
+                      </li>
+                      <li tabindex="0" class="digit">
+                        <span>Be</span>
+                      </li>
+                      <li tabindex="0" class="digit">
+                        <span> Partners</span>
+                      </li>
+                      
+                    </ul>
+                  </section>
+            </div>
         </div>
-    
+        
+         
+            <div class="Aboutt" style="display: none;" id="selector2">
+                <h1>Hello, I'm Kossay</h1>
+                <h3 id="paragraph1">22 y.o, Tunisian ,creative  full stack web developer </h3>
+                <h3>    graduated from coding dojo , i like everything related to financial  markets ,</h3>
+                    <h3>       I have a big experience with forex/crypto markets , i worked as a financial </h3>
+                        <h3>       advisor before and that's what im really passionnate about , i was part </h3>
+                            <h3>      of crypto projects mainly tunisian ones and they went big on MC and i won a </h3>
+                                <h3>    few forex trading competetoins on bullrun and other propfirms and challenge websites  </h3>
+                <h3> i love coding obviously & Looking forward to work with yall.</h3>
+                <div class="finimg">
+                    <img src="/assets/btc.jpg" alt="bitcoin">
+                    <img src="/assets/eth.jpg" alt="eth">
+                    <img src="/assets/eur.jpg" alt="eur">
+                    <img src="/assets/usd.jpg" alt="">
+                </div>
+                
+            </div>
+            <div class="Projectss" style="display: none;" id="selector2">
+                    <div class="firstsection">
+                        <img id="ddd" src="/assets/ddg.png" alt="proj1">
+                        <img src="/assets/ddg1.png" alt="proj2">
+                    </div>
+                
+                <div class="secondsection">
+                    <img src="/assets/ddg2.png" alt="proj3">
+                    <img src="/assets/ddg4.png" alt="proj4">
+                </div>
+            </div>
+        
     
     
     
     </div>
-    
+    <script src="/script.js"></script>
 </body>
 </html>

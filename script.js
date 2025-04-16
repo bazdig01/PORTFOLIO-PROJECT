@@ -35,3 +35,10 @@ function Contactt(){
     document.querySelector(".Skillss").style.display="none";
     document.querySelector(".Contactt").style.display="block";
 }
+
+
+function slideNavbar() {
+    const navbar = document.getElementById('navbar');
+    navbar.classList.toggle('active'); 
+    
+}

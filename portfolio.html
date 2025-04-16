@@ -5,16 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porfolio</title>
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
 </head>
 <body>
-    <div class="container">
+    <div class="containerr">
     
     
         <div class="navbar">
             
                 
                 
-            <div class="profile">
+            <div class="profile15">
                 <img id="profile-pic" src="/assets/kilua.jpeg" alt="profile-pic">
                 <h3>Full Stack Web Developer </h3>
                 <p>in Tunisia</p>
@@ -24,7 +27,7 @@
                 <li  onclick="Aboutt()"><a href="#">About</a></li>
                 <li  onclick="Projectss()"><a href="#">Projects</a></li>
                 <li  onclick="Skillss()"><a href="#">Skills</a></li>
-                <li  onclick="Contact()"><a href="#">Contact</a></li>
+                <li  onclick="Contactt()"><a href="#">Contact</a></li>
             </ul>
                 
         </div>
@@ -35,7 +38,7 @@
             <h3>DEVELOPER</h3>
             <div class="socialimg">
                 <a id="gmail" href="https://mail.google.com/mail/?view=cm&to=battachkozay@gmail.com">
-<img src="/assets/gm.jpg" alt="gmail"></a>
+                <img src="/assets/gm.jpg" alt="gmail"></a>
                 <a href=""></a>
                 <img src="/assets/linkedin.png" alt="linkedin">
                 <img src="/assets/github.png" alt="github">
@@ -110,76 +113,133 @@
                 </div>
             </div>
             
-            <div class="Skillss">
+            <div class="Skillss" style="display: none" >
                 <h2 id="firstspan"><span>HA</span>RD</h2>
                 <div class="hardskills">
-                    <div id="firstskill">   
-                        <p>Html:</p>
-                        <div id="line1">
-                            <hr id="hr1">
-                            <hr id="hr2">
-                        </div>  
+                    <div class="skillname">
+                        <p>HTML :</p>
+                        <p>Css :</p>
+                        <p>JavaScript :</p>
+                        <p>Node js :</p>
                     </div>
-                    
-                    <div id="secondskill">   
-                        <p>Css:</p>
-                        <div id="line1">
-                            <hr id="hr1">
-                            <hr id="hr3">
-                        </div>  
+                    <div class="percentagess">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                            85%
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                            80%
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                            75%
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                            80%
+                            </div>
+                        </div>
                     </div>
-                    <div id="thdirskill">   
-                        <p>JavaScript:</p>
-                        <div id="line1">
-                            <hr id="hr1">
-                            <hr id="hr4">
-                        </div>  
-                    </div> 
-                    <div id="fourthskill">   
-                        <p>Node js:</p>
-                        <div id="line1">
-                            <hr id="hr1">
-                            <hr id="hr5">
-                        </div>  
-                    </div>
-                </div>
+
+                </div>   
                 <h2 id="firstspan">SO<span>FT</span></h2>
                 <div class="softskills">
-                    <div id="firstskill">   
-                        <p>Comms:</p>
-                        <div id="line1">
-                            <hr id="hr1">
-                            <hr id="hr2">
-                        </div>  
-                    </div>
+                    <div class="skillname">
                     
-                    <div id="secondskill">   
-                        <p>Gaming:</p>
-                        <div id="line1">
-                            <hr id="hr1">
-                            <hr id="hr3">
-                        </div>  
+                        <p>Comms :</p>
+                        <p>Gaming :</p>
+                        <p>Reports :</p>
+                        <p>English lvl :</p>
+                        
                     </div>
-                    <div id="thdirskill">   
-                        <p>Reports:</p>
-                        <div id="line1">
-                            <hr id="hr1">
-                            <hr id="hr4">
-                        </div>  
-                    </div> 
-                    <div id="fourthskill">   
-                        <p>English lvl:</p>
-                        <div id="line1">
-                            <hr id="hr1">
-                            <hr id="hr5">
-                        </div>  
+                    <div class="percentagess">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" style="width:88%">
+                            88%
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:99.99%">
+                            99.99%
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:77%">
+                            77%
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="93" aria-valuemin="0" aria-valuemax="100" style="width:93%">
+                            93%
+                            </div>
+                        </div>
                     </div>
+
+                </div>
+                       
                 </div>
                
                 
             </div>
-            <div class="contact">
-                
+            <div class="Contactt" style="display: none">
+                <div class="pozizion">
+                    <div class="screen">
+                        <div class="screen-header">
+                        <div class="screen-header-left">
+                            <div class="screen-header-button close"></div>
+                            <div class="screen-header-button maximize"></div>
+                            <div class="screen-header-button minimize"></div>
+                        </div>
+                        <div class="screen-header-right">
+                            <div class="screen-header-ellipsis"></div>
+                            <div class="screen-header-ellipsis"></div>
+                            <div class="screen-header-ellipsis"></div>
+                        </div>
+                        </div>
+                        <div class="screen-body">
+                            <div class="screen-body-item left">
+                                <div class="app-title">
+                                <span>CONTACT</span> <span>Me</span>
+                                </div>
+                                <div class="app-contact">
+                                CONTACT INFO : +216 29 501 178
+                                </div>
+                            </div>
+                            <div class="screen-body-item">
+                                <div class="app-form">
+                                <div class="app-form-group">
+                                    <input class="app-form-control" placeholder="NAME" value="Qosei Battach">
+                                </div>
+                                <div class="app-form-group">
+                                    <input class="app-form-control" placeholder="EMAIL">
+                                </div>
+                                <div class="app-form-group">
+                                    <input class="app-form-control" placeholder="CONTACT N°">
+                                </div>
+                                <div class="app-form-group message">
+                                    <input class="app-form-control" placeholder="MESSAGE">
+                                </div>
+                                <div class="app-form-group buttons">
+                                    <button class="app-form-button">CANCEL</button> <button class="app-form-button">SEND</button>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="credits">
+                        inspired by <a class="credits-link" href="https://dribbble.com/shots/2666271-Contact" target="_blank"><svg class="dribbble" viewbox="0 0 200 200">
+                        <g stroke="#ffffff" fill="none">
+                        <circle cx="100" cy="100" r="90" stroke-width="20"></circle>
+                        <path d="M62.737004,13.7923523 C105.08055,51.0454853 135.018754,126.906957 141.768278,182.963345" stroke-width="20"></path>
+                        <path d="M10.3787186,87.7261455 C41.7092324,90.9577894 125.850356,86.5317271 163.474536,38.7920951" stroke-width="20"></path>
+                        <path d="M41.3611549,163.928627 C62.9207607,117.659048 137.020642,86.7137169 189.041451,107.858103" stroke-width="20"></path>
+                        </g></svg> bazdig</a>
+                    </div>
+                </div>
             </div>
     
     

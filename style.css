@@ -66,7 +66,6 @@ body{
     
 }
 .profile p{
-  
     color: #7078BB;
     font-size: 30px;
     font-weight: bolder;
@@ -75,7 +74,7 @@ body{
 } 
 .navbar li{
     z-index: 3  ;
-    
+
     margin: 50px 0;
     list-style: none;
     color: #D8D7B4;
@@ -143,9 +142,12 @@ body{
 	border-radius: 50%;
 	overflow: hidden;
 	box-shadow: 0 5px 15px 0px rgba(209,134,69);
-	transform: translatey(0px);
-	animation: float 6s ease-in-out infinite;
-	img { width: 100%; height: auto; }
+	
+}
+#gmail{
+  margin-top: 2%;
+  position: relative;
+  left: 9%;
 }
 .socialimg img:hover{
   padding: 5px;
@@ -271,7 +273,7 @@ ul {
 .lista  li:hover{
     background-color: #7078BB;
     width: 100%;
-    padding: 10px;
+    padding: 10px 0px;
     opacity: 80%;
     
     
@@ -286,10 +288,15 @@ ul {
   flex-direction: row; 
   justify-content:space-around;
   align-items: center;
+  
 
   
   
 }
+
+
+
+
 .firstsection{
   width: 100%;
 
@@ -305,15 +312,13 @@ ul {
   width:450px;
   height: 240px;
   
-  border-radius: 45%;
+  border-radius: 10%;
   
 	box-sizing: border-box;
-	border: 5px white solid;
+	border: 5px rgb(0, 0, 0) solid;
 	overflow: hidden;
-	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-	transform: translatey(0px);
-	animation: float 6s ease-in-out infinite;
-	img { width: 600px; height: 350px; }
+	box-shadow: 0 25px 15px 0px rgba(0,0,0,0.6);
+	
 }
 .secondsection{
   width: 100%;
@@ -330,16 +335,14 @@ ul {
 .secondsection img{
   width:450px;
   height: 240px;
+  border: 3px solid black;
   
-  border-radius: 45%;
+  border-radius: 10%;
   
 	box-sizing: border-box;
-	border: 5px white solid;
+	border: 5px rgb(0, 0, 0) solid;
 	overflow: hidden;
-	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-	transform: translatey(0px);
-	animation: float 6s ease-in-out infinite;
-	img { width: 600px; height: 350px; }
+	box-shadow: 0 25px 15px 0px rgba(0,0,0,0.6);
 }
 .Aboutt{
   height: 100%;
@@ -401,5 +404,104 @@ margin-top: 5%;
 	img { width: 100%; height: auto; }
 }
 #paragraph1{
+  margin-top: 5%;
+}
+
+.Skillss{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Skillss span {
+  color: #D18645;
+}
+.Skillss h2 {
+  text-align: center;
+  color:#D8D7B4;
+}
+.hardskills{
+  font-size: 20px;
+  margin-top: 2.5%;
+  color: #D8D7B4;
+  
+}
+#hr1{
+  color:#D18645;
+  height: 3px;
+  width: 550px;
+  background-color:#D18645;
+  
+}
+  
+#hr2{
+  color:#ffffff;
+  height: 3px;
+  width: 30px;
+  background-color:#ffffff;
+}
+#hr3{
+  
+  color:#ffffff;
+  height: 3px;
+  width: 90px;
+  background-color:#ffffff;
+  position: relative;
+  right: 3%;
+}
+#hr4{
+  color:#ffffff;
+  height: 3px;
+  width: 140px;
+  background-color:#ffffff;
+  position: relative;
+  right: 3%;
+}
+#hr5{
+  color:#ffffff;
+  height: 3px;
+  width: 70px;
+  background-color:#ffffff;
+}
+#line1{
+  display: flex;
+  align-items: center;
+}
+#firstskill{
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  justify-content: center;
+}
+#secondskill{
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  gap: 108px;
+  justify-content: center;
+}
+#thdirskill{
+  margin-top: 3%;
+
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: center;
+}
+#fourthskill{
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  gap: 75px;
+  justify-content: center;
+}
+.softskills{
+  font-size: 20px;
+  margin-top: 2.5%;
+  color: #D8D7B4;
+}
+.Skillss h2 {
   margin-top: 5%;
 }

@@ -536,6 +536,11 @@ margin-top: 5%;
   left: 37%;
   margin-top: -49%
 }
+form{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
 
 *, *:before, *:after {

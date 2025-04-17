@@ -17,7 +17,8 @@ function Aboutt(){
 function Projectss(){
     document.querySelector(".right-side").style.display="none";
     document.querySelector(".Aboutt").style.display="none";
-    document.querySelector(".Projectss").style.display="block";
+    document.querySelector(".Projectss").style.display="flexColumn";
+
     document.querySelector(".Skillss").style.display="none";
     document.querySelector(".Contactt").style.display="none";
 }

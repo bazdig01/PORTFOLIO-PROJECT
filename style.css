@@ -73,14 +73,17 @@ body{
 .navbar h3{
     text-align: center;
     color: #7078BB;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bolder;
     width: 380px;
     
 }
+
 .profile15 a{
   color: #D8D7B4;
   text-decoration: none;
+  
+  
 }
 
 .navbar li{
@@ -120,6 +123,7 @@ body{
 }
     
 .right-side h1 {
+ 
         
         font-size: 48px;
         
@@ -138,10 +142,76 @@ body{
         font-weight: lighter    ;
         text-align: center;
 }
+
+
+/* *********************************************
+***************************************
+***********************************
+************************************************** */
+.animated-text{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 4%;
+}
+.animated-text span{
+  position: relative;
+  text-align: center;
+}
+
+.animated-text span::before{
+  content: "Youtuber";
+  color: #D18645;
+  animation: words 8s infinite;
+}
+
+.animated-text span::after{
+  content: "";
+  position: absolute;
+  width: calc(100% + 8px);
+  height: 100%;
+  /* background-color: #2f3542; */
+  /* border-left: 2px solid #D18645; */
+  
+  animation: cursor .1s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+  to{
+      border-left: 2px solid #ff7f5000;
+  }
+}
+
+@keyframes words {
+  0%,33%{
+      content: "Web Developer";
+  }
+  34%,66%{
+      content: "Financial Advisor";
+  }
+  67%,100%{
+      content: "Marketing Expert";
+  }
+}
+
+@keyframes typing {
+  10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+      width: 0;
+  }
+  5%,20%,25%,40%,45%,60%,65%,80%,85%{
+      width: calc(100% + 8px);
+  }
+}
+
+
+
+/* *********************************************
+***************************************
+***********************************
+************************************************** */
 .socialimg{
   display: flex;
   justify-content: space-evenly;
-  
+ 
 }
 
 .socialimg img{
@@ -278,15 +348,84 @@ ul {
 }
  
 .lista  li:hover{
-    background-color: #7078BB;
+    /* background-color: #7078BB; */
     
     padding: 10px 0px;
     
     
     
 } 
+/* **************************************************************
+**************************************************************
+**************************************************************
+**************************************************************
+************************************************************** */
 
 
+.lista  a:hover{
+  color:#ff7700;
+}
+
+
+
+
+.lista  li::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.lista  li:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.lista  li::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: #7078BB;
+  
+  z-index: -1;
+  transition: transform .7s ease;
+}
+
+.lista  li {
+  position: relative;
+  font-size: 2.8rem;
+}
+
+.lista  li.html {
+  block-size: 100%;
+  inline-size: 100%;
+}
+
+.lista  li body {
+  min-block-size: 100%;
+  min-inline-size: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  display: grid;
+  place-content: center;
+  font-family: system-ui, sans-serif;
+}
+
+@media (orientation: landscape) {
+  body {
+    grid-auto-flow: column;
+  }
+}
+
+
+
+
+
+/* **************************************************************
+**************************************************************
+**************************************************************
+**************************************************************
+************************************************************** */
 .Projectss{
   width:80%;
   height: 100%;

@@ -44,3 +44,6 @@ function slideNavbar() {
     navbar.classList.toggle('active'); 
     
 }
+
+// *****************************************************
+

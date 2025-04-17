@@ -61,7 +61,8 @@ body{
 	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
 	transform: translatey(0px);
 	animation: float 2.2s  ease-in-out infinite;
-	img width: 100%; height: auto; 
+	/* width: 100%; */
+   height: auto; 
 }
 #navbotton{
   color: #D8D7B4;
@@ -109,16 +110,12 @@ body{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        
-        
-        
 
-        
 }
 .right-side section{
   display: flex;
   flex-direction: column;
-  height:400px ;*
+  height:400px ;
   
 }
     
@@ -146,9 +143,7 @@ body{
   justify-content: space-evenly;
   
 }
-.socialimg a{
- 
-}
+
 .socialimg img{
   
   width: 50px;
